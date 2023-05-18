@@ -6,7 +6,7 @@ import { Container } from '@mui/material'
 const Navbar = () => {
   return (
     <AppBar position="static">
-      <Container maxWidth='md'>
+      <Container maxWidth='xl'>
         <Toolbar>
           <Typography variant="h6" component="p" sx={{ flexGrow: 1 }}>
             React Mortgage Calculator

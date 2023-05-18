@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="app">
       <Navbar />
-      <Container maxWidth="md" sx={{mt: 5}}>
+      <Container maxWidth="xl" sx={{mt: 5}}>
         <SliderSelect />
         <TenureSelect />
         <Result />
