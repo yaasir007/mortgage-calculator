@@ -1,7 +1,7 @@
-import React from 'react'
-
-export const TenureSelect = () => {
+const TenureSelect = () => {
   return (
     <div>TenureSelect</div>
   )
 }
+
+export default TenureSelect

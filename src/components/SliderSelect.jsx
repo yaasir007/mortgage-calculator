@@ -1,7 +1,7 @@
-import React from 'react'
-
-export const SliderSelect = () => {
+const SliderSelect = () => {
   return (
     <div>SliderSelect</div>
   )
 }
+
+export default SliderSelect
