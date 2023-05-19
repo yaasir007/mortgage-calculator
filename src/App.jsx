@@ -1,10 +1,10 @@
-import { Container } from "@mui/material";
-import Grid from "@mui/material/Grid";
+import { Container } from "@mui/material"
+import Grid from "@mui/material/Grid"
 
-import Navbar from "./components/Navbar";
-import SliderSelect from "./components/SliderSelect";
-import TenureSelect from "./components/TenureSelect";
-import Result from "./components/Result";
+import Navbar from "./components/Navbar"
+import SliderSelect from "./components/SliderSelect"
+import TenureSelect from "./components/TenureSelect"
+import Result from "./components/Result"
 
 function App() {
   return (
@@ -25,4 +25,4 @@ function App() {
   );
 }
 
-export default App;
+export default App
