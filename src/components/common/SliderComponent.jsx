@@ -5,8 +5,8 @@ const SliderComponent = (props) => {
   return (
     <div>
       <Stack spacing={1}>
-        <Typography variant="subtitle2">Home Value</Typography>
-        <Typography variant="h5">$3000</Typography>
+        <Typography variant="subtitle2">{props.title}</Typography>
+        <Typography variant="h5">{props.unit}{props.amount}</Typography>
       </Stack>
       <Slider
         defaultValue={props.default}
@@ -21,14 +21,12 @@ const SliderComponent = (props) => {
       />
       <Stack direction="row" justifyContent="space-between">
         <Typography color="text.secondary" variant="caption">
-          $100
+          {props.unit}{props.min}
         </Typography>
         <Typography color="text.secondary" variant="caption">
-          $10000
+          {props.unit}{props.max}
         </Typography>
       </Stack>
-
-      <Typography variant="subtitle2">Down Payment</Typography>
     </div>
   );
 };
